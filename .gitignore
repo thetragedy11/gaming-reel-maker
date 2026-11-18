@@ -1,0 +1,40 @@
+# Environment & Secrets
+.env
+*.env
+
+# Generated media (never commit these)
+output/
+temp/
+*.mp4
+*.mp3
+*.wav
+*.jpg
+*.jpeg
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
